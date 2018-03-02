@@ -1,10 +1,8 @@
-module.exports = function getZerosCount(n){
-  var count=0;
-  while (n){
-  n=(n/5)|0;
-  count+=n;
-  }
-  return count;
-  }
-
-  console.log(getZeroCount(10));
+module.exports = function getZerosCount(number){
+var count=0;
+while (number){
+number=(number/5)|0;
+count+=number;
+}
+return count;
+}
